@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Realizar Pedido</title>
+<body>
+    <h1>Ingresa los campos necesarios para tu pedido</h1>
+
+    <form action="pedido.js">
+        <label for="Nombre">Ingresa tu nombre</label>
+        <br>
+        <input type="text" id="Nombre" name ="Nombre" placeholder="Nombre">
+        <br><br>
+        
+        <label for="telefono">Ingresa tu numero de telefono</label> 
+        <br>
+        <input type="text" name="telefono" id="telefono" placeholder="656-898-20-63">
+        <br><br>
+
+        <label for="email">Ingresa tu Correo electronico</label> 
+        <br>
+        <input type="email" name="email" id="email" >
+        <br><br>
+
+        <label for="DatosPastel">Descripcion general del pastel</label> 
+        <br>
+        <input type="text" name="DatosPastel" id="DatosPastel"  style="WIDTH: 228px; HEIGHT: 98px"
+        size=32  placeholder=" numero de personas etc \n diseño">
+        <br><br>
+
+        <p>Selecciona el sabor para tu pastel</p>
+
+        <input type="checkbox" id="BrontoVainilla" name="BrontoVainilla" value="BrontoVainilla">
+        <label for="BrontoVainilla">BrontoVainilla</label><br>
+
+        <input type="checkbox" id="Frutasauro" name="Frutasauro" value="Frutasauro">
+        <label for="Frutasauro">Frutasauro</label><br>
+       
+        <input type="checkbox" id="AlloChocolate" name="AlloChocolate" value="AlloChocolate">
+        <label for="AlloChocolate">AlloChocolate</label><br>
+
+        <input type="checkbox" id="Nutellator" name="Nutellator" value="Nutellator">
+        <label for="Nutellator">Nutellator</label><br>
+        
+        <input type="checkbox" id="TalaLemon" name="TalaLemon" value="TalaLemon">
+        <label for="TalaLemon">TalaLemon</label><br>
+    
+        <input type="checkbox" id="FresaRex" name="FresaRex" value="FresaRex">
+        <label for="FresaRex">FresaRex</label><br>
+
+        <input type="checkbox" id="TriceLeches" name="TriceLeches" value="TriceLeches">
+        <label for="TriceLeches">TriceLeches</label><br>
+    
+
+        <p>Selecciona los adornos</p>
+        <input type="checkbox" id="Velas" name="Velas" value="Velas">
+        <label for="Velas">Velas de cumpleaños</label>
+        <input type="number" id="Velas" name="Velas" placeholder="Edad a Formar"><br>
+
+        <input type="checkbox" id="Magic" name="Magic" value="Magic">
+        <label for="Magic">Magic Happy Birthday</label><br>
+  
+
+        <input type="checkbox" id="Gorritos" name="Gorritos" value="Gorritos">
+        <label for="venus">Gorritos de fiesta</label>
+        <input type="number" id="Gorritos" name="Gorritos" placeholder="Cuantos: 2?"><br>
+
+        <input type="checkbox" id="Tematica" name="Tematica" value="Tematica">
+        <label for="Tematica">Tematica</label>
+        <input type="text" id="Tematica" name="Tematica" placeholder="Que personaje le gustaria"><br>
+
+        <input type="checkbox" id="Figuras" name="Figuras" value="Figuras">
+        <label for="Figuras">Figuras</label>
+        <input type="text" id="Figuras" name="Figuras" placeholder="Ingrese personaje"><br>
+
+        <input type="checkbox" id="venus" name="venus" value="Venus">
+        <label for="venus">Frutos rojos</label><br>
+
+
+        <input type="reset">
+        <input type="submit">
+    </form>
+
+</body>
+</head>
+</html>
